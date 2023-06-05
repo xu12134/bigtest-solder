@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+ul,li {
+	list-style: none;
+}
+.main {
+	background: url(../images/bg.jpg) repeat-x left top fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#pagecontent {
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+	width: 990px;
+	background: transparent no-repeat top center;
+}
+#pagecontent-inner {
+	width: 990px;
+	height: 809px;
+	background: url(../images/53.jpg) no-repeat;
+    position: relative;
+}
+#pagecontent-inner > img {
+    position: absolute;
+    bottom:12%;
+    left:0;
+}
+#top-elements {
+	height: 152px;
+	overflow: hidden;
+	position: relative;
+}
+.button {
+	height: 22px;
+	padding:0 0 0 6px;
+	margin:0 10px 0 0;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 1px;
+	float: right;
+	text-decoration: none;
+	background: #412313;
+}
+#register-btn,#login-btn{
+	width: 100px;
+	height:30px;
+	border-radius:10px;
+	cursor: pointer;
+}
+.button span {
+	color:#fff;    
+}
+#register,#login{
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+    z-index:9999;
+}
+#login {
+    display: none;
+}
+#register {
+    display:block;
+}
+.reg {
+	width: 500px;
+	height: 500px;
+	background: #fff;
+	margin:0 auto;
+	margin-top:12%;
+	position: relative;
+	border-radius: 5px;
+}
+.logon {
+	text-align: center;
+	font-size: 2.5em;
+	color:#412313;
+	padding-top: 50px;
+}
+.reg > img {
+	position:absolute;
+	top:20px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+}
+#form {
+	margin-top: 50px;
+	position: relative;
+}
+.input_container {
+	width: 300px;
+	height: 70px;
+	margin:0 auto;
+}
+.reg_login-input {
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	border:none;
+	border:1px solid #412313;
+	border-radius: 5px;
+}
+#submit-register,#submit-login{
+	width: 300px;
+	height: 40px;
+	margin-left: 100px;
+	background: #412313;
+	color:#fff;
+	font-size: 1.5em;
+	border:none;
+	border-radius: 5px;
+}
+.reg_login-btn {
+	text-align: right;
+	padding-top: 40px;
+	padding-right: 5px;
+	font-size: 1.5em;
+	color:#412313;
+}
+#btn {
+	padding-top: 70px;
+}
+.content {
+    width: 990px;
+    height: 620px;
+    position: relative;
+    margin-top:10px;
+    z-index:2;
+}
+.header {
+    position: absolute;
+    top:20px;
+    left:0;
+}
+.title {
+    font-size: 2.5em;
+    text-decoration: none;
+    float: left;
+    width: 100px;
+    background: none;
+    color:#fff;
+}
+a {
+    color:#414313;
+    text-decoration: none;
+}
+.active {
+    color:#412313;
+    background:#fff;
+}
+.content-move {
+    position: absolute;
+    top:11%;
+    left: 0;
+    width:100%;
+    height:240px;
+    background: #fff;
+}
+.content-move .room-plane {
+    width: 100%;
+    height: 125px;
+    background: #fff;
+    color:#412313;
+    font-size: 1.3em;
+    margin-top: 30px;
+    border-bottom: 1px solid #666;
+    position: relative;
+}
+.content-move .room-plane input {
+    height: 25px;
+    border:none;
+    background: #412313;
+    text-align: center;
+    margin-top: 25px;
+    color:#fff;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    -webkit-border-radius :2px;
+}
+.input-state {
+    width: 22%;
+    float: left;
+}
+.input-state > input {
+    width: 95%;
+}
+.start-date {
+    width: 22%;
+    float: left;
+}
+.start-date > input {
+    width: 95%;
+}
+.end-date {
+    width: 22%;
+    float: left;
+}
+.end-date > input {
+    width: 95%;
+}
+.person {
+    width: 22%;
+    float: left;
+}
+.person > input {
+    width: 95%;
+}
+button {
+    width: 10%;
+    height: 25px;
+    margin-top: 52px;
+    font-size: 20px;
+    background:#412313;
+    color:#fff;
+    border:none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.text {
+   margin-top: 10px;
+    color:#412313;
+    font-size: 18px;
+}
+.text > img {
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    background: #412313;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 334px;
+    margin-top:60px;
+    display: none;
+}
+.img > img {
+    width: 25%;
+    height: 167px;
+    overflow: hidden;
+    float: left;
+}
+.count {
+    position: absolute;
+    top:65%;
+    right:5.5%;
+    width: 28%;
+    background: #fff;
+    border:1px solid #eee;
+    display: none;
+}
+.count-number {
+    width: 95%;
+    height: 40px;
+    display: block;
+    line-height:40px;
+    background: #eee;
+    margin:0 auto;
+    margin-top:7px;
+    margin-bottom: 7px;
+}
+.count-number p {
+    float: left;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.count-number .input {
+    position: relative;
+    top:-20px;
+}
+.count-number:nth-of-type(1) .input{
+    position: relative;
+    left:48px;
+}
+.count-number:nth-of-type(2) .input{
+    position: relative;
+    left:48px;
+}
+.count-number .btn {
+    width: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}

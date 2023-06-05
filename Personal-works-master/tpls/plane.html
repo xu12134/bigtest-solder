@@ -1,0 +1,61 @@
+<div class="content-move">
+    <div class="room-plane" ng-controller="moneyController">
+        <div class="input-state">
+            <h3>搜索下一个目的地</h3>
+            <input type="text" value="国家、城市"/>
+        </div>
+        <div class="start-date">
+            <h3>起飞日期</h3>
+            <input type="text" id="date1">
+        </div>
+        <div class="end-date">
+            <h3>返回日期</h3>
+            <input type="text" id="date2">
+        </div>
+        <div class="person">
+            <h3>乘机人数</h3>
+            <input type="text" value="{{number+dnumber}}张机票，{{number}}名普通，{{dnumber}}名学生"/>
+        </div>
+        <div class="count">
+            <div class="count-number">
+                <p>票数</p>
+                <div class="input">
+                    <input type="button" value="-" class="btn" ng-click="del();">
+                    <input type="text" size="4" ng-model="number" >
+                    <input type="button" value="+" class="btn" ng-click="add();">
+                </div>
+            </div>
+            <div class="count-number">
+                <p>普通</p>
+                <div class="input">
+                    <input type="button" value="-" class="btn" ng-click="delPlane();">
+                    <input type="text" size="4" ng-model="number">
+                    <input type="button" value="+" class="btn" ng-click="add();">
+                </div>
+            </div>
+            <div class="count-number">
+                <p>学生（军人、老人）</p>
+                <div class="input">
+                    <input type="button" value="-" class="btn" ng-click="delUpdate();">
+                    <input type="text" size="4" ng-model="dnumber">
+                    <input type="button" value="+" class="btn" ng-click="update();">
+                </div>
+            </div>
+        </div>
+        <button >搜索</button>
+    </div>
+    <div class="text">
+        <p>高级搜索</p>
+        <img src="images/down.png" alt=""/>
+    </div>
+    <div class="img">
+        <img src="images/35.jpg" alt=""/>
+        <img src="images/7.jpeg" alt=""/>
+        <img src="images/34.png" alt=""/>
+        <img src="images/36.png" alt=""/>
+        <img src="images/32.png" alt=""/>
+        <img src="images/37.png" alt=""/>
+        <img src="images/5.jpeg" alt=""/>
+        <img src="images/35.png" alt=""/>
+    </div>
+</div>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Guarda Golf Hotel</title>
+	<link rel="stylesheet" type="text/css" href="css/GuardaGolf.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css">
+</head>
+<body>
+	<div class="main">
+		<div id="pagecontent">
+			<div id="pagecontent-inner">
+				<div id="top-elements">
+					<a href="#" id="register-btn" class="button">
+						<span>Register</span>
+					</a>
+					<div id="login-btn" class="button">
+						<span>Login</span>
+					</div>
+				</div>	
+				<div class="content">
+					<div class="header">
+						<a href="#" class="title active">住宿</a>
+						<a href="#plane"class="title">机票</a>
+					</div>
+					<div ng-view>
+					</div>
+				</div>
+                <img src="images/54.jpg" alt=""/>
+			</div>
+		</div>
+	</div>
+	<div id="register">
+		<div class="reg">
+			<h3 class="logon">注册</h3>
+			<form id="form" method="post" action="">
+				<div class="input_container">
+					<input type="text" class="reg_login-input" id="register-name" placeholder="邮箱账号/手机号">
+				</div>
+				<div class="input_container">
+					<input type="password" class="reg_login-input" id="register-pwd" placeholder="密码">
+				</div>
+				<div class="input_container">
+					<input type="password" class="reg_login-input" id="confirm-register-pwd" placeholder="确认密码">
+				</div>
+				<input type="button" id="submit-register" value="注册">
+
+				<div class="reg_login-btn" id="btn2">
+					已有账号？<a href="#">立即登录</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="login">
+		<div class="reg">
+			<h3 class="logon">登录</h3>
+			<form id="form" method="post" action="">			
+				<div class="input_container">
+					<input type="text" class="reg_login-input" id="login-name" placeholder="邮箱账号/手机号">
+				</div>
+				<div class="input_container">
+					<input type="password" class="reg_login-input" id="login-pwd" placeholder="密码">
+				</div>
+				<input type="button" id="submit-login" value="登录">
+				<div class="reg_login-btn" id="btn">
+					未登录成功？<a href="#">快去注册</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.datetimepicker.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/angular-ui-router.js"></script>
+    <script type="text/javascript" src="tpls/hotel.js"></script>
+    <script type="text/javascript" src="js/GuardaGolf.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	
+</body>
+</html>

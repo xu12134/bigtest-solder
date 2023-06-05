@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.item-img h2 img {
+	position: relative;
+} 
+#guarda-golf-lounge {
+	background-color: #efece8;
+}
+#guarda-golf-lounge .carousel-nav{
+	position: absolute;
+	top:515px;
+	left:319px;
+}
+#grand-sunday-buffet {
+	height: 723px;
+	margin-top: -80px;
+	background:url(../images/76.jpg) no-repeat center fixed;
+}
+#grand-sunday-buffet .box {
+	margin:0;
+	margin-top: 220px;
+}
+#grand-sunday-buffet .box-inner {
+	width: 1050px;
+	height: 293px;
+	margin:0 auto;
+}
+#grand-sunday-buffet .box-inner h2 {
+	padding-top: 20px;
+}
+#grand-sunday-buffet .box-inner:hover p{
+	color:#fff;
+}
+#catering {
+	background-color: #efece8;
+}
+#catering .content-info .content-info-inner{
+	background: #fff;
+}
+#catering .content-slider {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}

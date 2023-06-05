@@ -1,0 +1,61 @@
+<div class="content-move">
+    <div class="room-plane" ng-controller="moneyController">
+        <div class="input-state">
+            <h3>搜索下一个目的地</h3>
+            <input type="text" value="城市、区域或酒店住宿"/>
+        </div>
+        <div class="start-date">
+            <h3>入住日期</h3>
+            <input type="text" id="date1">
+        </div>
+        <div class="end-date">
+            <h3>退房日期</h3>
+            <input type="text" id="date2">
+        </div>
+        <div class="person">
+            <h3>入住人数</h3>
+            <input type="text" value="{{number}}间客房、{{number}}名成人、{{dnumber}}名儿童"/>
+        </div>
+        <div class="count">
+            <div class="count-number">
+                <p>房数</p>
+                <div class="input">
+                    <input type="button" value="-" class="btn" ng-click="del();">
+                    <input type="text" size="4" ng-model="number">
+                    <input type="button" value="+" class="btn" ng-click="add();">
+                </div>
+            </div>
+            <div class="count-number">
+                <p>大人</p>
+                <div class="input">
+                    <input type="button" value="-" class="btn" ng-click="del();">
+                    <input type="text" size="4" ng-model="number">
+                    <input type="button" value="+" class="btn" ng-click="add();">
+                </div>
+            </div>
+            <div class="count-number">
+                <p>儿童（年龄2-11岁）</p>
+                <div class="input">
+                    <input type="button" value="-" class="btn" ng-click="delUpdate();">
+                    <input type="text" size="4" ng-model="dnumber">
+                    <input type="button" value="+" class="btn" ng-click="update();">
+                </div>
+            </div>
+        </div>
+        <button>搜索</button>
+    </div>
+    <div class="text">
+        <p>高级搜索</p>
+        <img src="images/down.png" alt=""/>
+    </div>
+    <div class="img">
+        <img src="images/10.png" alt=""/>
+        <img src="images/12.png" alt=""/>
+        <img src="images/13.png" alt=""/>
+        <img src="images/15.png" alt=""/>
+        <img src="images/16.png" alt=""/>
+        <img src="images/17.png" alt=""/>
+        <img src="images/18.png" alt=""/>
+        <img src="images/19.png" alt=""/>
+    </div>
+</div>

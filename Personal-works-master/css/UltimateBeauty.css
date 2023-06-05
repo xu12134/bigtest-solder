@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#spa-facilities {
+	background-color: #efece8;
+}
+#our-products {
+	margin-top: -80px;
+}
+#membership {
+	height: 723px;;
+	background: url(../images/22.jpg) no-repeat center fixed;
+}
+#membership .box {
+	margin:0;
+	margin-top: 220px;
+}
+#membership .box-inner {
+	width: 1100px;
+	height: 293px;
+	margin:0 auto;
+
+}
+#membership .box-inner h2 {
+	padding-top: 20px;
+}
+#membership .box-inner p {
+	margin-top: 0;
+}
+#membership .box-inner:hover p{
+	color:#fff;
+}
