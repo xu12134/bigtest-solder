@@ -152,11 +152,31 @@ body {
     background-color: #ffffff;
     overflow: hidden;
     margin-top: 5px;
+    height: 200px;
+}
+
+.main_c {
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 5px;
+    height: 500px;
 }
 
 .news {
     width: 340px;
     border: 1px solid #e8e8e8;
+}
+
+.news_c {
+    width: 410px;
+    border: 1px solid #e8e8e8;
+    height: 500px; /* 设置高度为50像素 */
+}
+
+.news_2_c {
+    width: 950px;
+    border: 1px solid #e8e8e8;
+    height: 500px; /* 设置高度为50像素 */
 }
 
 .course {
@@ -174,6 +194,10 @@ body {
     height: 250px;
     float: left;
 }
+
+.news_c, .news_c {
+    display: inline-block;
+  }
 
 .title {
     height: 35px;
@@ -233,7 +257,7 @@ body {
     padding-left: 10px;
     margin: 8px;
     border-bottom: 1px dotted #ccc;
-    overflow: hidden;
+#    overflow: hidden;
 }
 
 .news_list a:link, .news_list a:visited {
